@@ -13,10 +13,12 @@ brew cask install cyberduck
 brew cask install skype
 brew cask install virtualbox
 brew cask install balenaetcher
+brew cask install synergy
 #brew cask install remote-desktop-manager-free
 
 # Photo and video and streaming
 brew cask install vlc
+brew cask install plex-media-player
 brew cask install obs
 brew cask install exifrenamer # batch file renamer using exif data
 brew cask install dupeguru # finds file duplicates
