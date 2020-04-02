@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+alias hg='history | grep'
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
@@ -9,3 +10,25 @@ fi
 
 # List all files colorized in long format, including dot files
 alias la="ls -lahF ${colorflag}"
+
+# Get OS X Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
+alias update_system='sudo softwareupdate -i -a'
+
+# Show/hide hidden files in Finder
+alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
+alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
+
+# == BACKUPS AND SYNCHRONIYATIONS ==
+# Synchronizacia adresara Laser zo Synology na disk Backup_03
+alias bkp_laser='touch /Volumes/Backup_03/laser/updates.txt &&
+                 printf "\nSync start: $(date)" >> /Volumes/Backup_03/laser/updates.txt &&
+                 rsync -rvPe ssh --exclude '.*' --exclude '@*' --exclude 'laser/updates.txt' --delete "root@10.0.0.10:/volume1/laser" "/Volumes/Backup_03/" &&
+                 printf "\nSync end: $(date)" >> /Volumes/Backup_0 3/laser/updates.txt &&
+                 tail -2 /Volumes/Backup_03/laser/updates.txt'
+
+# Synchronizacia adresara Epub zo Synology na disk Backup_03
+alias bkp_epub='touch /Volumes/Backup_03/epub/updates.txt &&
+                printf "\nSync start: $(date)" >> /Volumes/Backup_03/epub/updates.txt &&
+                rsync -rvPe ssh --exclude '.*' --exclude '@*' --exclude 'epub/updates.txt' --delete "root@10.0.0.10:/volume1/epub" "/Volumes/Backup_03/" &&
+                printf "\nSync end: $(date)" >> /Volumes/Backup_0 3/epub/updates.txt &&
+                tail -2 /Volumes/Backup_03/epub/updates.txt'
