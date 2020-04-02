@@ -14,6 +14,7 @@ brew cask install skype
 brew cask install virtualbox
 brew cask install balenaetcher
 brew cask install synergy
+brew install mc
 #brew cask install remote-desktop-manager-free
 
 # Photo and video and streaming
