@@ -5,6 +5,8 @@ brew cask install sublime-text
 brew cask install google-chrome
 brew cask install google-drive-file-stream
 #brew cask install google-backup-and-sync
+brew cask install hyperdock
+brew cask install divvy
 brew cask install the-unarchiver
 brew cask install disk-inventory-x
 brew cask install cyberduck
