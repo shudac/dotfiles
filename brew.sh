@@ -24,6 +24,7 @@ brew cask install obs
 brew cask install exifrenamer # batch file renamer using exif data
 brew cask install dupeguru # finds file duplicates
 brew cask install adobe-creative-cloud
+brew cask install inkscape
 
 # 3D printer
 brew cask install ultimaker-cura
