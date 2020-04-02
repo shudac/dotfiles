@@ -17,10 +17,12 @@ brew cask install vlc
 brew cask install obs
 brew cask install exifrenamer # batch file renamer using exif data
 brew cask install dupeguru # finds file duplicates
+brew cask install adobe-creative-cloud
 
 # 3D printer
 brew cask install ultimaker-cura
 brew cask install autodesk-fusion360
+# chitubox does not have brew support yet
 
 # DEV tools
 brew cask install sourcetree
