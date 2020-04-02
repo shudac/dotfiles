@@ -13,6 +13,7 @@ brew cask install cyberduck
 brew cask install skype
 brew cask install virtualbox
 brew cask install balenaetcher
+#brew cask install remote-desktop-manager-free
 
 # Photo and video and streaming
 brew cask install vlc
@@ -33,4 +34,8 @@ brew cask install docker-toolbox
 brew cask install visual-studio-code
 #brew cask install intellij-idea
 brew cask install mysqlworkbench
+brew cask install java
 brew install jhipster
+
+# Games and stuff
+brew cask install steam
