@@ -6,13 +6,14 @@ brew cask install google-chrome
 brew cask install google-drive-file-stream
 #brew cask install google-backup-and-sync
 brew cask install hyperdock
-brew cask install divvy
+brew cask install divvy # window management
 brew cask install the-unarchiver
 brew cask install disk-inventory-x
-brew cask install cyberduck
+brew cask install cyberduck # ftp client
 brew cask install skype
+brew cask install whatsapp
 brew cask install virtualbox
-brew cask install balenaetcher # boobtable key creation
+brew cask install balenaetcher # boobtable usb key creation
 brew cask install synergy # software KVM switch
 brew install mc # file manager
 #brew cask install remote-desktop-manager-free
