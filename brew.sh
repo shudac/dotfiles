@@ -12,13 +12,15 @@ brew cask install skype
 brew cask install virtualbox
 brew cask install balenaetcher
 
-# Photo and video
+# Photo and video and streaming
 brew cask install vlc
-brew cask install exifrenamer
 brew cask install obs
+brew cask install exifrenamer # batch file renamer using exif data
+brew cask install dupeguru # finds file duplicates
 
 # 3D printer
 brew cask install ultimaker-cura
+brew cask install autodesk-fusion360
 
 # DEV tools
 brew cask install sourcetree
