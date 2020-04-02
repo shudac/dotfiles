@@ -12,9 +12,9 @@ brew cask install disk-inventory-x
 brew cask install cyberduck
 brew cask install skype
 brew cask install virtualbox
-brew cask install balenaetcher
-brew cask install synergy
-brew install mc
+brew cask install balenaetcher # boobtable key creation
+brew cask install synergy # software KVM switch
+brew install mc # file manager
 #brew cask install remote-desktop-manager-free
 
 # Photo and video and streaming
