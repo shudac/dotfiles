@@ -13,6 +13,7 @@ brew cask install cyberduck # ftp client
 brew cask install skype
 brew cask install whatsapp
 brew cask install virtualbox
+brew cask install virtualbox-extension-pack
 brew cask install balenaetcher # boobtable usb key creation
 brew cask install synergy # software KVM switch
 brew install mc # file manager
