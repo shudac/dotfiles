@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
 ############################
 # This script creates symlinks from the home directory to any desired dotfiles in ${homedir}/dotfiles
 # And also installs Homebrew Packages
@@ -16,7 +16,8 @@ homedir=$1
 dotfiledir=${homedir}/dotfiles
 
 # list of files/folders to symlink in ${homedir}
-files="bash_profile bashrc bash_prompt aliases private"
+#files="bash_profile bashrc bash_prompt aliases private"
+files="zshenv aliases git-completion.bash"
 
 # change to the dotfiles directory
 echo "Changing to the ${dotfiledir} directory"

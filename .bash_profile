@@ -15,4 +15,4 @@ fi
 
 # Setting PATH for Python 3.7
 # PATH="/Library/Frameworks/Python.framework/Versions/3.7/bin:${PATH}"
-# export PATH
+# export PATHif which rbenv > /dev/null; then eval "$(rbenv init -)"; fi

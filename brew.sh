@@ -3,7 +3,7 @@
 # Install MacOS Applications
 #brew cask install sublime-text
 brew cask install google-chrome
-brew cask install google-drive-file-stream
+#brew cask install google-drive-file-stream
 #brew cask install google-backup-and-sync
 brew cask install hyperdock
 brew cask install divvy # window management
