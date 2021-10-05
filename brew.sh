@@ -1,47 +1,57 @@
 #!/usr/bin/env bash
+brew update
+brew upgrade
 
 # Install MacOS Applications
-#brew cask install sublime-text
-brew cask install google-chrome
-#brew cask install google-drive-file-stream
-#brew cask install google-backup-and-sync
-brew cask install hyperdock
-brew cask install divvy # window management
-brew cask install the-unarchiver
-brew cask install disk-inventory-x
-brew cask install cyberduck # ftp client
-brew cask install skype
-brew cask install whatsapp
-brew cask install virtualbox
-brew cask install virtualbox-extension-pack
-brew cask install balenaetcher # boobtable usb key creation
-brew cask install synergy # software KVM switch
+# brew install --cask sublime-text
+# brew install --cask google-drive-file-stream
+# brew install --cask google-backup-and-sync
+# brew install --cask hyperdock
+# brew install --cask divvy # window management
+brew install --cask spectacle # window management
+brew install --cask the-unarchiver
+brew install --cask disk-inventory-x
 brew install mc # file manager
-#brew cask install remote-desktop-manager-free
+brew install --cask double-commander # file manager
+brew install --cask balenaetcher # boobtable usb key creation
+# brew install --cask synergy # software KVM switch
+# brew install --cask remote-desktop-manager-free
+
+# Web and messaging
+brew install --cask google-chrome
+brew install --cask brave-browser
+brew install --cask cyberduck # ftp client
+brew install --cask skype
+brew install --cask whatsapp
+brew install --cask viber
 
 # Photo and video and streaming
-brew cask install vlc
-brew cask install plex-media-player
-brew cask install obs
-brew cask install exifrenamer # batch file renamer using exif data
-brew cask install dupeguru # finds file duplicates
-brew cask install adobe-creative-cloud
-brew cask install inkscape
+brew install --cask vlc
+brew install --cask plex-media-player
+brew install --cask obs
+brew install --cask exifrenamer # batch file renamer using exif data
+brew install --cask dupeguru # finds file duplicates
+brew install --cask adobe-creative-cloud
+brew install --cask inkscape
 
 # 3D printer
-brew cask install ultimaker-cura
-brew cask install autodesk-fusion360
+brew install --cask ultimaker-cura
+brew install --cask autodesk-fusion360
 # chitubox does not have brew support yet
 
 # DEV tools
-brew cask install sourcetree
-brew cask install docker
-brew cask install docker-toolbox
-brew cask install visual-studio-code
-#brew cask install intellij-idea
-brew cask install mysqlworkbench
-brew cask install java
-brew install jhipster
+# brew install --cask virtualbox
+# brew install --cask virtualbox-extension-pack
+brew install git
+brew install node
+brew install --cask sourcetree
+brew install --cask docker
+brew install --cask docker-toolbox
+brew install --cask visual-studio-code
+# brew install --cask intellij-idea
+brew install --cask mysqlworkbench
+# brew install --cask java
+# brew install jhipster
 
 # Games and stuff
-brew cask install steam
+# brew install --cask steam
